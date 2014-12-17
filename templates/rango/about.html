@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load staticfiles %} <!-- New line -->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Rango</title>
+</head>
+<body>
+    <h1>The about page.</h1>
+    What is all this about? <strong>{{ boldmessage }}</strong><br/>
+    <a href="/rango/about/"></a><br/>
+    <img src="{% static "images/treehouse.jpg" %}" alt="Picture of the treehouse" /> <!-- New line -->
+</body>
+</html>
