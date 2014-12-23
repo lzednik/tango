@@ -1,4 +1,6 @@
 """
+#superuser is lada, password is teddy
+
 Django settings for tango project.
 
 For more information on this file, see
